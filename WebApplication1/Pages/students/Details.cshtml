@@ -1,0 +1,48 @@
+﻿@page "{id}"
+@model WebApplication1.Pages.students.DetailsModel
+@{      ViewData["Title"] = "Student Detail";
+    var photoPath = $"/images/{Model.Student.PhotoPath ?? "noimage.png"}";
+}
+<div class="row justify-content-center m-3">
+    <div class="col col-lg-8">
+        <div>
+            <div>
+                <h1>@Model.Student.Name</h1>
+            </div>
+
+
+            <div class="text-center">
+                <div class="row">
+                    <div class="col col-lg-9">
+                        <h4>Student ID: @Model.Student.Id</h4>
+                        <h4>Student email: @Model.Student.Email</h4>
+                        <h4>Student Course: @Model.Student.Course</h4>
+
+                    </div>
+
+                    <div class="col col-lg-3">
+                        <div style="border-right: 1px solid rgba(0,0,0,.1);">
+                            <img class="card-img-top border border-primary" style="background-color: #808080;" src ="@photoPath" asp-append-version="true"/>
+                        </div>
+                        
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">   
+                <div class=" col">
+                    <div class="card-footer text-center" style=" background-color: rgba(0,0,0,0.25);">
+                        <a asp-page="Student" class="btn btn-success">back</a>
+                        <a hre="#" class="btn btn-primary">Edit</a>
+                        <a hre="#" class="btn btn-danger">delete</a>
+                    </div>
+                    </div>
+           </div>
+
+
+
+        </div>
+
+
+    </div>
+</div>

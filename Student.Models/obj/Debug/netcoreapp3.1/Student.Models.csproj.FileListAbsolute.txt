@@ -1,0 +1,9 @@
+F:\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.deps.json
+F:\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.dll
+F:\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.pdb
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csprojAssemblyReference.cache
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfoInputs.cache
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfo.cs
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
+F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
