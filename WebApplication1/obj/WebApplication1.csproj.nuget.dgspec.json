@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "F:\\WebApplication1\\Student.Models\\Student.Models.csproj": {
+    "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WebApplication1\\Student.Models\\Student.Models.csproj",
+        "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj",
         "projectName": "Student.Models",
-        "projectPath": "F:\\WebApplication1\\Student.Models\\Student.Models.csproj",
+        "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "F:\\WebApplication1\\Student.Models\\obj\\",
+        "outputPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "F:\\WebApplication1\\Student.Services\\Student.Services.csproj": {
+    "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WebApplication1\\Student.Services\\Student.Services.csproj",
+        "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj",
         "projectName": "Student.Services",
-        "projectPath": "F:\\WebApplication1\\Student.Services\\Student.Services.csproj",
+        "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "F:\\WebApplication1\\Student.Services\\obj\\",
+        "outputPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\WebApplication1\\Student.Models\\Student.Models.csproj": {
-                "projectPath": "F:\\WebApplication1\\Student.Models\\Student.Models.csproj"
+              "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
+                "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "F:\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "F:\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,11 +140,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\WebApplication1\\Student.Models\\Student.Models.csproj": {
-                "projectPath": "F:\\WebApplication1\\Student.Models\\Student.Models.csproj"
+              "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
+                "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj"
               },
-              "F:\\WebApplication1\\Student.Services\\Student.Services.csproj": {
-                "projectPath": "F:\\WebApplication1\\Student.Services\\Student.Services.csproj"
+              "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj": {
+                "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj"
               }
             }
           }

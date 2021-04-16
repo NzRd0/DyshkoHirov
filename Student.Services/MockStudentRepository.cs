@@ -46,5 +46,18 @@ namespace Student.Services
         {
             return _studentList.FirstOrDefault(x=>x.Id == id);
         }
+        public student Update(student updateStudent)
+        {
+            student student = _studentList.FirstOrDefault(x => x.Id == updateStudent.Id);
+            if (student!= null)
+            {
+                student.Name = updateStudent.Name;
+                student.Email = updateStudent.Email;
+                student.Course = updateStudent.Course;
+                student.PhotoPath = updateStudent.PhotoPath;
+
+            }
+            return student;
+        }
     }
 }

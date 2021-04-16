@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\WebApplication1\\Student.Services\\Student.Services.csproj",
+      "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj",
       "projectName": "Student.Services",
-      "projectPath": "F:\\WebApplication1\\Student.Services\\Student.Services.csproj",
+      "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj",
       "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "F:\\WebApplication1\\Student.Services\\obj\\",
+      "outputPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\WebApplication1\\Student.Models\\Student.Models.csproj": {
-              "projectPath": "F:\\WebApplication1\\Student.Models\\Student.Models.csproj"
+            "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
+              "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj"
             }
           }
         }

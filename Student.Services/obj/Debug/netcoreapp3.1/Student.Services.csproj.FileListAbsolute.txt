@@ -10,3 +10,15 @@ F:\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csp
 F:\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CopyComplete
 F:\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.dll
 F:\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.pdb
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csprojAssemblyReference.cache
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.AssemblyInfoInputs.cache
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.AssemblyInfo.cs
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CoreCompileInputs.cache
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.dll
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.pdb
+E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.deps.json
+E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.dll
+E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.pdb
+E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.dll
+E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.pdb
+E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CopyComplete

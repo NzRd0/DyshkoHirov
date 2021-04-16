@@ -20,7 +20,7 @@ namespace WebApplication1.Pages
 
         public void OnGet()
         {
-            message = $"ти лох\n time {DateTime.Now.ToLongDateString()}";
+            message = $"time {DateTime.Now.ToLongDateString()}";
         }
     }
 }

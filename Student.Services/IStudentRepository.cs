@@ -9,5 +9,6 @@ namespace Student.Services
     {
         IEnumerable<student> GetAllStudents();
         student GetStudent(int id);
+        student Update(student updateStudent);
     }
 }
