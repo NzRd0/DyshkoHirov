@@ -23,37 +23,72 @@ namespace WebApplication1.Pages.students
             _studentRepository = studentRepository;
             _webHostEnvironment = webHostEnvironment;
         }
-
+        [BindProperty]
         public student Student { get; set; }
 
         [BindProperty]
         public IFormFile Photo { get; set; }
 
-        public IActionResult OnGet(int id)
+        [BindProperty]
+        public  bool Notify { get; set; }
+
+        public String Message { get; set; }
+
+        public IActionResult OnGet(int? id)
         {
-            Student = _studentRepository.GetStudent(id);
+            if (id.HasValue)
+                Student = _studentRepository.GetStudent(id.Value);
+            else
+                Student = new student();
+               
             if (Student == null)
                 return RedirectToPage("/NotFound");
             return Page();
         }
 
-        public IActionResult OnPost(student student)
+        public IActionResult OnPost()
         {
-            if (Photo != null)
+            if (ModelState.IsValid)
             {
-                if (student.PhotoPath != null)
+                if (Photo != null)
                 {
-                    string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", student.PhotoPath);
-                    System.IO.File.Delete(filePath);
+                    if (Student.PhotoPath != null)
+                    {
+                        string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", Student.PhotoPath);
+                        System.IO.File.Delete(filePath);
+                    }
+
+                    Student.PhotoPath = ProcessUpLoadedFile();
                 }
 
-                student.PhotoPath = ProcessUpLoadedFile();
+                if (Student.Id > 0)
+                {
+                    Student = _studentRepository.Update(Student);
+
+                    TempData["SuccessMessage"] = $"Update {Student.Name} successful";
+                }
+                else 
+                {
+                    Student = _studentRepository.Add(Student);
+
+                    TempData["SuccessMessage"] = $"Adding {Student.Name} successful";
+                }
+
+                return RedirectToPage("student");
             }
-            Student = _studentRepository.Update(student);
-            return RedirectToPage("student");
-        
+         
+                return Page();
         }
 
+        public void OnPostUpdateNotificationPreferences(int id)
+        {
+            if (Notify)
+                Message = "Дякуємо за влкючення сповіщень";
+            else
+                Message = "Ви вимкнули емейл сповіщення";
+
+            Student = _studentRepository.GetStudent(id);
+        }
         private string ProcessUpLoadedFile()
         {
             string uniqurFileName = null;

@@ -1,13 +1,43 @@
-﻿@page "{id}"
+﻿@page "{id:min(1)?}/{handler?}"
 @model WebApplication1.Pages.students.EditModel
 @{
-    ViewData["Title"] = "Edit";
 
     var photopath = $"/images/{Model.Student.PhotoPath ?? "noimage.png"}";
+
+    var pageTitle = Model.Student.Id > 0 ? "Редагувати" : "Створити";
+    ViewData["Title"] = pageTitle;
 }
 
+<form method="post" asp-page-handler="UpdateNotificationPreferences">
+    <div class="row text-center" notifyBlock>
+        <div class="col form-check">
+            <h1>Notification Preferences</h1>
+            <input asp-for="Notify" class="form-check-input"/>
+            <label asp-for="Notify" class="form-check-label"> 
+                Відправити емейл коли деталі зміняться
+                </label><br/>
+                        <hr />
+                        <button type="submit" class="btn btn-primary text-center"> Update notification preference   </button>
+            
+            @if (!string.IsNullOrWhiteSpace(Model.Message))
+            { 
+              <div class="alert alert-success">
+                  <p class="p-3 mt-2">@Model.Message</p>
+            
+            </div>
+
+            }
+            </div>
+        
+        </div>
+    
+    </form>
+<hr />
+
+<div asp-validation-summary="All" class="text-danger text-center"></div>
+
 <!--Создаём форму редактирования-->
-<form method="post" class="mt-3" enctype="multipart/form-data">
+<form method="post" asp-page-handler="OnPost" class="mt-3" enctype="multipart/form-data">
     <!--Создаём скрытое поле для параметра ID-->
     <input type="hidden" asp-for="Student.Id" />
     <input type="hidden" asp-for="Student.PhotoPath" />
@@ -97,5 +127,6 @@
                 });
             });
         </script>
+    <partial name="_ValidationScriptsPartial"/>
     }
 </form>

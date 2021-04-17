@@ -32,11 +32,19 @@ namespace Student.Services
                 },
                       new student ()
                 {
-                    Id = 4, Name = "chmo", Course = Dept.english ,
+                    Id = 4, Name = "Anna", Course = Dept.english ,
                 }
             };
         
         }
+
+        public student Add(student newStudent)
+        {
+            newStudent.Id = _studentList.Max(x => x.Id) + 1;
+            _studentList.Add(newStudent);
+            return newStudent;
+        }
+
         public IEnumerable<student> GetAllStudents()
         {
             return _studentList;

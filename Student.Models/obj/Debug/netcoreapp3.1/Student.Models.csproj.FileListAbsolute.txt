@@ -7,3 +7,12 @@ F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.Assembl
 F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
 F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
 F:\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
+E:\DyshkoHirov\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.deps.json
+E:\DyshkoHirov\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.dll
+E:\DyshkoHirov\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.pdb
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csprojAssemblyReference.cache
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfoInputs.cache
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfo.cs
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
+E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
