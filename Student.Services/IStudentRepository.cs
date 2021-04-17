@@ -12,5 +12,9 @@ namespace Student.Services
         student Update(student updateStudent);
 
         student Add(student newStudent);
+
+        student Delete(int id);
+
+        IEnumerable<DeptHeadCount> StudentCountByDept(Dept? dept);
     }
 }

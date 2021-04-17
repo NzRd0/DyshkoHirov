@@ -2,16 +2,21 @@
 @model WebApplication1.Pages.students.studentModel
 @{
     ViewData["Title"] = "Students";
+    ViewData["ShowButtons"] = true;
 }
 
 @if (TempData["SuccessMessage"] != null)
-{ 
-<div class="alert alert-success text-center">
-    @TempData["SuccessMessage"]
-    
+{
+    <div class="alert alert-success text-center">
+        @TempData["SuccessMessage"]
+
     </div>
 
 }
+
+@*@await Component.InvokeAsync("HeadCound")*@
+<vc:head-count department="@null"></vc:head-count>
+
 <h1>Студентики</h1>
 
 <div class="row">
@@ -19,32 +24,8 @@
 
     @foreach (var item in Model.Students)
     {
-        ////фотографії
-        var photoPath = $"/images/{item.PhotoPath ?? "noimage.png"}";
-
         <div class="col-12 col-sm-6 col-lg-4">
-
-            <div class="card-deck">
-                <div class="card m-3 cardBoxShadow">
-                    <div class="card-header text-center cardHeaderStyle bg-success">
-                        <h3>@item.Name</h3>
-                    </div>
-
-                    <div class="text-center cardBodyStyle">
-                        <img class="card-img-top" src="@photoPath" asp-append-version="true" />
-                    </div>
-
-                    <div class="card-footer text-center">
-                        <a asp-page="/students/Details" asp-route-ID="@item.Id" class="btn btn-success m-1">view</a>
-                        <a asp-page="/students/Edit" asp-route-ID="@item.Id" class="btn btn-primary m-1">edit</a>
-                        <a href="#" class="btn btn-danger m-1">delete</a>
-                    </div>
-                </div>
-
-            </div>
-
-
-
+            <partial name="_DisplayStudentPartial" model="item" view-data="ViewData" />
         </div>
     }
 </div>

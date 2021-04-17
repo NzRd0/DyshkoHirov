@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {}
+    "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj": {}
   },
   "projects": {
-    "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
+    "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj",
+        "projectUniqueName": "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj",
         "projectName": "Student.Models",
-        "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj",
-        "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-        "outputPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\obj\\",
+        "projectPath": "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj",
+        "packagesPath": "C:\\Users\\bakun\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\DyshkoHirov\\Student.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bakun\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

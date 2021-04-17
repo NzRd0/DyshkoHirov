@@ -16,3 +16,12 @@ E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Mo
 E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
 E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
 E:\DyshkoHirov\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
+D:\C#\DyshkoHirov\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.deps.json
+D:\C#\DyshkoHirov\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.dll
+D:\C#\DyshkoHirov\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.pdb
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csprojAssemblyReference.cache
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfoInputs.cache
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfo.cs
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
+D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb

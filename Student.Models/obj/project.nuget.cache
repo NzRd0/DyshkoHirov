@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1aOT8uiiLSppW+9afNTjZsfZcPUgyyOfLaKn5JzLltvj3K5836ODAlsR22ciNznUuQ5QIK7RZ2TBruYmJ3XHIA==",
+  "dgSpecHash": "lv1C1UfdlYMSW7GV9grnWYgdoqdMg1EmUW/zZYGF8sKZw/sqm2Y7MDQisYBwyeDLuwgePxnKxqeplqhqSNog+w==",
   "success": true,
-  "projectFilePath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj",
+  "projectFilePath": "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

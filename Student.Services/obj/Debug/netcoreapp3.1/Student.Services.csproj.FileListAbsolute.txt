@@ -22,3 +22,15 @@ E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.
 E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.dll
 E:\DyshkoHirov\WebApplication1\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.pdb
 E:\DyshkoHirov\WebApplication1\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CopyComplete
+D:\C#\DyshkoHirov\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.deps.json
+D:\C#\DyshkoHirov\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.dll
+D:\C#\DyshkoHirov\Student.Services\bin\Debug\netcoreapp3.1\Student.Services.pdb
+D:\C#\DyshkoHirov\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.dll
+D:\C#\DyshkoHirov\Student.Services\bin\Debug\netcoreapp3.1\Student.Models.pdb
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csprojAssemblyReference.cache
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.AssemblyInfoInputs.cache
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.AssemblyInfo.cs
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CoreCompileInputs.cache
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.csproj.CopyComplete
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.dll
+D:\C#\DyshkoHirov\Student.Services\obj\Debug\netcoreapp3.1\Student.Services.pdb

@@ -45,6 +45,18 @@ namespace Student.Services
             return newStudent;
         }
 
+        public student Delete(int id)
+        {
+            student studentToDelete = _studentList.FirstOrDefault(x => x.Id == id);
+
+            if (studentToDelete != null)
+            {
+                _studentList.Remove(studentToDelete);
+            }
+
+            return studentToDelete;
+        }
+
         public IEnumerable<student> GetAllStudents()
         {
             return _studentList;
@@ -54,6 +66,22 @@ namespace Student.Services
         {
             return _studentList.FirstOrDefault(x=>x.Id == id);
         }
+
+        public IEnumerable<DeptHeadCount> StudentCountByDept(Dept? dept)
+        {
+            IEnumerable<student> query = _studentList;
+
+            if (dept.HasValue)
+                query = query.Where(x => x.Course == dept.Value);
+            
+            return query.GroupBy(x => x.Course)
+                .Select(x => new DeptHeadCount()
+                {
+                    Course = x.Key.Value,
+                    Count = x.Count()
+                }).ToList(); 
+        }
+
         public student Update(student updateStudent)
         {
             student student = _studentList.FirstOrDefault(x => x.Id == updateStudent.Id);

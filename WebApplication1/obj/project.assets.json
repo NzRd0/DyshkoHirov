@@ -6434,19 +6434,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LEGION\\.nuget\\packages\\": {}
+    "C:\\Users\\bakun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\C#\\DyshkoHirov\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\LEGION\\.nuget\\packages\\",
-      "outputPath": "E:\\DyshkoHirov\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "D:\\C#\\DyshkoHirov\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\bakun\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\DyshkoHirov\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LEGION\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bakun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6460,11 +6460,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj": {
-              "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Models\\Student.Models.csproj"
+            "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj": {
+              "projectPath": "D:\\C#\\DyshkoHirov\\Student.Models\\Student.Models.csproj"
             },
-            "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj": {
-              "projectPath": "E:\\DyshkoHirov\\WebApplication1\\Student.Services\\Student.Services.csproj"
+            "D:\\C#\\DyshkoHirov\\Student.Services\\Student.Services.csproj": {
+              "projectPath": "D:\\C#\\DyshkoHirov\\Student.Services\\Student.Services.csproj"
             }
           }
         }
@@ -6526,7 +6526,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
