@@ -78,6 +78,11 @@ namespace WebApplication1
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=SendMail}/{action=Index}/{id?}"
+                    );
             });
         }
     }
