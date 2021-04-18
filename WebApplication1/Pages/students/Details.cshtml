@@ -4,8 +4,7 @@
     var photoPath = $"/images/{Model.Student.PhotoPath ?? "noimage.png"}";
 }
 <div class="row justify-content-center m-3">
-    <div class="col col-lg-8">
-        @*@await Component.InvokeAsync("HeadCount", new { department = Model.Student.Course})*@      
+    <div class="col col-lg-8">   
         <vc:head-count department="@Model.Student.Course"></vc:head-count>
     </div>
 </div>
@@ -41,7 +40,7 @@
                     <div class="card-footer text-center" style=" background-color: rgba(0,0,0,0.25);">
                         <a asp-page="Student" class="btn btn-success">back</a>
                         <a asp-page="/students/Edit" asp-route-ID="@Model.Student.Id" class="btn btn-primary m-1">Edit</a>
-                        <a asp-page="/students/Delete" asp-route-ID="@Model.Student.Id" class="btn btn-primary m-1">Delete</a>
+                        <a asp-page="/students/Delete" asp-route-ID="@Model.Student.Id" class="btn btn-danger m-1">Delete</a>
                     </div>
                 </div>
             </div>

@@ -10,34 +10,6 @@ namespace Student.Services
     {
         private List<student> _studentList;
 
-        public MockStudentRepository()
-        {
-            _studentList = new List<student>()
-            {
-                new student ()
-                { 
-                    Id = 0, Name = "Nazar", Course = Dept.english,
-                },
-                 new student ()
-                {
-                    Id = 1, Name = "sonya", Course = Dept.HR ,
-                },
-                  new student ()
-                {
-                    Id = 2, Name = "petro", Course = Dept.HR ,
-                },
-                   new student ()
-                {
-                    Id = 3, Name = "vasyl", Course = Dept.english ,
-                },
-                      new student ()
-                {
-                    Id = 4, Name = "Anna", Course = Dept.english ,
-                }
-            };
-        
-        }
-
         public student Add(student newStudent)
         {
             newStudent.Id = _studentList.Max(x => x.Id) + 1;

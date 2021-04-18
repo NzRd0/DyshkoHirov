@@ -14,14 +14,14 @@
             </div>
 
             <div class="text-center cardBodyStyle">
-                <img class="card-img-top" src="@photoPath" asp-append-version="true" />
+                <img class="card-img-top img-thumbnail" src="@photoPath" asp-append-version="true" />
             </div>
             @if (showButtons)
             {
             <div class="card-footer text-center">
                 <a asp-page="/students/Details" asp-route-ID="@Model.Id" class="btn btn-success m-1">view</a>
                 <a asp-page="/students/Edit" asp-route-ID="@Model.Id" class="btn btn-primary m-1">edit</a>
-                <a asp-page="/students/Delete" asp-route-ID="@Model.Id" class="btn btn-primary m-1">delete</a>
+                <a asp-page="/students/Delete" asp-route-ID="@Model.Id" class="btn btn-danger m-1">delete</a>
             </div>
             }
         </div>

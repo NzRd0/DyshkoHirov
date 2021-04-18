@@ -6,7 +6,12 @@ namespace Student.Models
 {
      public enum Dept
     {
-        english, 
-        HR
+        Painting,
+        Football,
+        Choir,
+        Board_Games,
+        Horse_Running,
+        Baseball
+
     }
 }
