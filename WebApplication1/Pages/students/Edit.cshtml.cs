@@ -55,6 +55,7 @@ namespace WebApplication1.Pages.students
                     if (Student.PhotoPath != null)
                     {
                         string filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", Student.PhotoPath);
+                        if (Student.PhotoPath != "moimage.png")
                         System.IO.File.Delete(filePath);
                     }
 

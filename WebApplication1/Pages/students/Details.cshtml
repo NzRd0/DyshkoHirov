@@ -40,8 +40,8 @@
                 <div class=" col">
                     <div class="card-footer text-center" style=" background-color: rgba(0,0,0,0.25);">
                         <a asp-page="Student" class="btn btn-success">back</a>
-                        <a hre="#" class="btn btn-primary">Edit</a>
-                        <a hre="#" class="btn btn-danger">delete</a>
+                        <a asp-page="/students/Edit" asp-route-ID="@Model.Student.Id" class="btn btn-primary m-1">Edit</a>
+                        <a asp-page="/students/Delete" asp-route-ID="@Model.Student.Id" class="btn btn-primary m-1">Delete</a>
                     </div>
                 </div>
             </div>

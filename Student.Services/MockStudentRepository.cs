@@ -67,6 +67,15 @@ namespace Student.Services
             return _studentList.FirstOrDefault(x=>x.Id == id);
         }
 
+        public IEnumerable<student> Search(string searchTerm)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                return _studentList;
+            }
+            return _studentList.Where(x => x.Name.ToLower().Contains(searchTerm.ToLower()) || x.Email.ToLower().Contains(searchTerm.ToLower()));
+        }
+
         public IEnumerable<DeptHeadCount> StudentCountByDept(Dept? dept)
         {
             IEnumerable<student> query = _studentList;

@@ -7,6 +7,7 @@ namespace Student.Services
 {
     public interface IStudentRepository
     {
+        IEnumerable<student> Search(string searchTerm);
         IEnumerable<student> GetAllStudents();
         student GetStudent(int id);
         student Update(student updateStudent);

@@ -19,9 +19,14 @@ namespace WebApplication1.Pages.students
         }
         public IEnumerable<student> Students { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public void OnGet()
         {
-            Students = _db.GetAllStudents();
+            Students = _db.Search(SearchTerm);
+
+
         }
     }
 }

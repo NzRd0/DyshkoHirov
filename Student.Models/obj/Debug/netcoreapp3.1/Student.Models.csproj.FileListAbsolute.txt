@@ -25,3 +25,12 @@ D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.Assembly
 D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
 D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
 D:\C#\DyshkoHirov\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.deps.json
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.dll
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\bin\Debug\netcoreapp3.1\Student.Models.pdb
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csprojAssemblyReference.cache
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfoInputs.cache
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.AssemblyInfo.cs
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.csproj.CoreCompileInputs.cache
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.dll
+C:\Users\LEGION\Desktop\WebApplication1\Student.Models\obj\Debug\netcoreapp3.1\Student.Models.pdb
